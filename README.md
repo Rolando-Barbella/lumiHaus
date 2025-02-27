@@ -1,6 +1,10 @@
 # LumiHaus Commerce
 
-A simplified product catalog for a small e-commerce platform.
+A simplified product catalog for a small e-commerce platform, build on NextJS.
+
+## Pre requesits
+
+Node.js 18.18 or later
 
 ## Getting started
 
