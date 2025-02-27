@@ -12,6 +12,7 @@ A simplified product catalog for a small e-commerce platform.
 ## Running the project
 
 FE - npm run dev
+
 BE - npm run serve
 
 Go to http://localhost:3000
