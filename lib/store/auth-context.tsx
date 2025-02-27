@@ -75,7 +75,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       if (token) {
         const payload = await verifyToken(token);
         if (payload) {
-          debugger
           dispatch({
             type: 'LOGIN_SUCCESS',
             payload: { user: payload, token },
