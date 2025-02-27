@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Stil Chair",
+      "price": 49.99,
+      "image": "/images/Picture-1.png",
+      "createdAt": "2024-03-20T00:00:00.000Z",
+      "updatedAt": "2024-03-20T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Eira Chair",
+      "price": 129.99,
+      "image": "/images/Picture-2.png",
+      "createdAt": "2024-03-20T00:00:00.000Z",
+      "updatedAt": "2024-03-20T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Lyng Table",
+      "price": 89.99,
+      "image": "/images/Picture-3.png",
+      "createdAt": "2024-03-20T00:00:00.000Z",
+      "updatedAt": "2024-03-20T00:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Lykke Sofa",
+      "price": 199.99,
+      "image": "/images/Picture.png",
+      "createdAt": "2024-03-20T00:00:00.000Z",
+      "updatedAt": "2024-03-20T00:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "Skog Sofa",
+      "price": 79.99,
+      "image": "/images/Picture-5.png",
+      "createdAt": "2024-03-20T00:00:00.000Z",
+      "updatedAt": "2024-03-20T00:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "Lumi table",
+      "price": 159.99,
+      "image": "/images/Picture-6.png",
+      "createdAt": "2024-03-20T00:00:00.000Z",
+      "updatedAt": "2024-03-20T00:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "name": "Viter sofa",
+      "price": 449.99,
+      "image": "/images/Picture-7.png",
+      "createdAt": "2024-03-20T00:00:00.000Z",
+      "updatedAt": "2024-03-20T00:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "name": "Klara Chair",
+      "price": 499.99,
+      "image": "/images/Picture-8.png",
+      "createdAt": "2024-03-20T00:00:00.000Z",
+      "updatedAt": "2024-03-20T00:00:00.000Z"
+    }
+  ]
+}
