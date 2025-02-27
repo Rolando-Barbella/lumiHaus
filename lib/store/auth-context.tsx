@@ -86,37 +86,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     };
   
     verifyExistingToken();
-  
+    // Periodically verify token (every 5 minutes)
     const intervalId = setInterval(verifyExistingToken, 5 * 60 * 1000);
     return () => clearInterval(intervalId);
   }, []);
   
-
-  // useEffect(() => {
-  //   const verifyExistingToken = async () => {
-  //     const token = Cookies.get('auth_token');
-      
-  //     if (token) {
-  //       const payload = await verifyToken(token);
-  //       if (payload) {
-  //         dispatch({
-  //           type: 'LOGIN_SUCCESS',
-  //           payload: { user: payload, token },
-  //         });
-  //       } else {
-  //         // Token is invalid or expired
-  //         dispatch({ type: 'LOGOUT' });
-  //       }
-  //     }
-  //   };
-
-  //   verifyExistingToken();
-
-  //   // Periodically verify token (every 5 minutes)
-  //   const intervalId = setInterval(verifyExistingToken, 5 * 60 * 1000);
-
-  //   return () => clearInterval(intervalId);
-  // }, []);
 
   const login = async (email: string, password: string) => {
     dispatch({ type: 'LOGIN_START' });
