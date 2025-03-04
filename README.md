@@ -2,6 +2,14 @@
 
 A simplified product catalog for a small e-commerce platform, build on NextJS.
 
+<p align="center">
+  <img src="https://reactnative.dev/img/header_logo.svg" alt="React JS" width="60"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" alt="Next.js" width="80"/>
+</p>
+
+![screen](https://github.com/Rolando-Barbella/cat-sample-dating/blob/main/assets/images/e-commerce.png)
+
+
 ## Pre requesits
 
 Node.js 18.18 or later
