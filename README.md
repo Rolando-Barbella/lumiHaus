@@ -1,10 +1,11 @@
 # LumiHaus Commerce
 
-A simplified product catalog for a small e-commerce platform, build on NextJS.
+A simplified product catalog for a small e-commerce platform, build on NextJS, ReactJS, TailwindCSS and JSON Server.
 
 <p align="center">
   <img src="https://reactnative.dev/img/header_logo.svg" alt="React JS" width="60"/>
-  <img src="https://notes.webutvikling.org/images/nextjs.png" alt="Next.js" width="80"/>
+  <img src="https://notes.webutvikling.org/images/nextjs.png" alt="Next JS" width="80"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind CSS" width="80"/>
 </p>
 
 ![screen](https://github.com/Rolando-Barbella/lumiHaus/blob/main/public/images/e-commerce.png)
@@ -35,6 +36,7 @@ Go to http://localhost:3000
 - Admin123!
 
 ## Test
+
 - npm run test
 
 ## Testing perfomace
